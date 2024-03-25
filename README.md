@@ -12,35 +12,50 @@
 
 **10% of the final grade**
 
-This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
+<!-- This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
 Please, fill the following sections about your project.
 
-*(max. 2000 characters per section)*
+*(max. 2000 characters per section)* -->
 
 ### Dataset
+- [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of video games across different platforms and genres, with the Top 100 games from [vgchartz.com](https://www.vgchartz.com). 
+- 
 
-> Find a dataset (or multiple) that you will explore. Assess the quality of the data it contains and how much preprocessing / data-cleaning it will require before tackling visualization. We recommend using a standard dataset as this course is not about scraping nor data processing.
->
-> Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
 ### Problematic
 
+<!-- 
 > Frame the general topic of your visualization and the main axis that you want to develop.
 > - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
+> - Think of an overview for the project, your motivation, and the target audience. 
+-->
+
+- Examines changes over time in the gaming industry, tracking shifts in consumer preferences.
+- Identifies the platforms that are leading in worldwide game sales and explores the success of various game genres across different regions.
+
 
 ### Exploratory Data Analysis
 
+<!-- 
 > Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
+> - Show some basic statistics and get insights about the data 
+-->
 
 ### Related work
 
 
-> - What others have already done with the data?
-> - Why is your approach original?
-> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-> - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+### 1. What others have already done with the data?
+Several analyses and visualizations have been conducted using our dataset, including:
+- [Data Analysis & Visualization: Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): This work analyzed the Global Video Game Sales dataset using R.
+-  
+
+### 2. Why is your approach original?
+
+### 3. What source of inspiration do you take? 
+Additionally, we draw inspiration from impressive visualization projects across different subjects from previous years:
+- [Anime Data Visualization](https://github.com/com-480-data-visualization/com-480-project-worldwideweebz) : This project inspired us to come up with our figure 1, aiming to visualize the genre preference and popularity about the most authoritative game sales in the video game industry.
+
+<!-- - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class. -->
 
 ## Milestone 2 (26th April, 5pm)
 
