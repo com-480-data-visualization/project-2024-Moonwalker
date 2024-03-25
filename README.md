@@ -18,9 +18,28 @@ Please, fill the following sections about your project.
 *(max. 2000 characters per section)* -->
 
 ### Dataset
-- [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of video games across different platforms and genres, with the Top 100 games from [vgchartz.com](https://www.vgchartz.com). 
+- [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of Top 100 games video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
 - 
 
+#### Global Video Game Sales Dataset
+> **Size**: 11 columns and 100 rows
+
+| Column Name   | Description                                                   |
+|---------------|---------------------------------------------------------------|
+| Rank          | Ranking of the game based on global sales. (Integer)          |
+| Name          | Name of the game. (String)                                    |
+| Platform      | Platform the game was released on. (String)                   |
+| Year          | Year the game was released. (Integer)                         |
+| Genre         | Genre of the game. (String)                                   |
+| Publisher     | Publisher of the game. (String)                               |
+| NA_Sales      | Sales of the game in North America. (Float)                   |
+| EU_Sales      | Sales of the game in Europe. (Float)                          |
+| JP_Sales      | Sales of the game in Japan. (Float)                           |
+| Other_Sales   | Sales of the game in other regions. (Float)                   |
+| Global_Sales  | Total sales of the game worldwide. (Float)                    |
+
+#### Preprocess
+(TBD) The *Global Video Game Sales* dataset is quite clean and complete, only some basic data preprocessing such as removing unnecessary columns is needed.
 
 ### Problematic
 
@@ -44,14 +63,14 @@ Please, fill the following sections about your project.
 ### Related work
 
 
-### 1. What others have already done with the data?
+#### 1. What others have already done with the data?
 Several analyses and visualizations have been conducted using our dataset, including:
 - [Data Analysis & Visualization: Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): This work analyzed the Global Video Game Sales dataset using R.
 -  
 
-### 2. Why is your approach original?
+#### 2. Why is your approach original?
 
-### 3. What source of inspiration do you take? 
+#### 3. What source of inspiration do you take? 
 Additionally, we draw inspiration from impressive visualization projects across different subjects from previous years:
 - [Anime Data Visualization](https://github.com/com-480-data-visualization/com-480-project-worldwideweebz) : This project inspired us to come up with our figure 1, aiming to visualize the genre preference and popularity about the most authoritative game sales in the video game industry.
 
