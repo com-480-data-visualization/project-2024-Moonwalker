@@ -18,11 +18,11 @@ Please, fill the following sections about your project.
 *(max. 2000 characters per section)* -->
 
 ### Dataset
-- [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of Top 100 games video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
+- [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of top video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
 - 
 
 #### Global Video Game Sales Dataset
-> **Size**: 11 columns and 100 rows
+> **Size**: 11 columns and 16600 rows
 
 | Column Name   | Description                                                   |
 |---------------|---------------------------------------------------------------|
