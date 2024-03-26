@@ -39,7 +39,7 @@ Please, fill the following sections about your project.
 | Global_Sales  | Total sales of the game worldwide. (Float)                    |
 
 #### Preprocess
-(TBD) The *Global Video Game Sales* dataset is quite clean and complete, only some basic data preprocessing such as removing unnecessary columns is needed.
+(TBD) For the *Global Video Game Sales* dataset, we clean up entries that miss the year of release.
 
 ### Problematic
 
