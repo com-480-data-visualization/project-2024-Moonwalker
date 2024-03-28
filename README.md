@@ -20,8 +20,9 @@ Please, fill the following sections about your project.
 ### Dataset
 - [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of top video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
 - [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This dataset contains a list of very pupular video games released from 1980 to 2023, it also provides other things such as release dates, user review rating, discribe summary and critic review rating, which are super useful for us to find out some interesting insights about the popularity of video games recently. 
+- [Videogame-company-regions](https://www.kaggle.com/datasets/andreshg/videogamescompaniesregions): **TODO**
 
-#### Global Video Game Sales Dataset
+#### Ⅰ. Global Video Game Sales Dataset
 > **Size**: 11 columns and 16600 rows
 
 | Column Name   | Description                                                   |
@@ -38,7 +39,7 @@ Please, fill the following sections about your project.
 | Other_Sales   | Sales of the game in other regions. (Float)                   |
 | Global_Sales  | Total sales of the game worldwide. (Float)                    |
 
-#### 1980-2023 Popular Video Games Dataset
+#### Ⅱ. 1980-2023 Popular Video Games Dataset
 > **Size**: 14 columns and 1512 rows
 
 | Column Name   | Description                                                   |
@@ -57,8 +58,13 @@ Please, fill the following sections about your project.
 | Backlogs      | Number of users who have access but haven't started. (Object) |
 | Wishlist      | Number of users who wish to play the game. (Object)           |
 
-#### Preprocess
-(TBD) For the *Global Video Game Sales* dataset, we clean up entries that miss the year of release.
+#### Ⅲ. Videogame-company-regions Dataset
+> **Size**: 7 columns and 686 rows
+
+**TODO**
+
+#### Ⅳ. Preprocess
+For the *Global Video Game Sales* and *Videogame-company-regions* dataset, we merged the two dataset by the column **Publisher** and **Developer**, for the convenience of futher analysis. 
 
 For the *Popular Video Games 1980 - 2023*, we first clean up the dataset by dropping the first meaningless column and some rows including **null** values. After that, we do a deeper cleaning by removing the rows where its **Release Date** is "releases on TBD", changing the columns name to lower case, replacing spaces with "_" for consistency and converting the special data type “K“ into the integer (1000) for some columns. 
 
@@ -71,7 +77,7 @@ For more details please check our jupyter notebook [eda.ipynb](https://github.co
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience. 
 -->
-
+**TODO**
 - Examines changes over time in the gaming industry, tracking shifts in consumer preferences.
 - Identifies the platforms that are leading in worldwide game sales and explores the success of various game genres across different regions.
 
