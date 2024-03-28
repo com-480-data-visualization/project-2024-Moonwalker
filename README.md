@@ -83,11 +83,13 @@ For more details please check our jupyter notebook [eda.ipynb](https://github.co
 > - Show some basic statistics and get insights about the data 
 -->
 
-**Top 10 most popular video games genres** 
-This figure deisplays
+**Top 10 Most Popular Video Games Genres.** 
+This figure deisplays the top 10 popular video game genres, with 'Adventure' games leading the pack at 1005 games. Following are 'RPG' games with a significant count of 422 games. The genres 'Platform' and 'Shooter' are fairly close in popularity, with 282 and 270 games respectively. 'Brawler', 'Simulator', and 'Turn Based Strategy' genres have the fewest games among the top 10, with counts of 119, 109, and 99 games accordingly. The chart provides a clear visual representation of the disparity in popularity among different video game genres.
+![Global production](images/Top10Popular.png "Top 10 Most Popular Video Games Genres")
 
-**trends of the average Adventure video games'rating**
-This figure shows
+**Trends of the Average Adventure Video Games'Rating.**
+This figure shows the average ratings for adventure games from 1985 to around 2020. There’s a notable peak in the early '90s, followed by a sharp decline. Ratings fluctuate afterwards but stay mostly above 3.5. The trend from 2010 onwards is slightly downward, suggesting a recent dip in ratings for the genre. Overall, the genre’s ratings have varied but stayed within a defined range over the years.
+![Global production](images/AdventureRating.png "Trends of the Average Adventure Video Games'Rating")
 
 ### Related work
 
