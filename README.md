@@ -19,7 +19,7 @@ Please, fill the following sections about your project.
 
 ### Dataset
 - [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of top video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
-- 
+- [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This dataset contains a list of video games dating from 1980 to 2023, it also provides things such as release dates, user review rating, discribe summary and critic review rating.
 
 #### Global Video Game Sales Dataset
 > **Size**: 11 columns and 16600 rows
@@ -38,8 +38,29 @@ Please, fill the following sections about your project.
 | Other_Sales   | Sales of the game in other regions. (Float)                   |
 | Global_Sales  | Total sales of the game worldwide. (Float)                    |
 
+#### 1980-2023 Popular Video Games Dataset
+> **Size**: 14 columns and 1512 rows
+
+| Column Name   | Description                                                   |
+|---------------|---------------------------------------------------------------|
+| Title         | Title of the game. (String)                                   |
+| Release Date  | Date of release of the game's first version. (Object)         |
+| Team          | Game developer team. (String)                                 |
+| Rating        | Average rating. (Float)                                       |
+| Times Listed  | Number of users who listed this game. (Object)                |
+| N of Reviews  | Number of reviews received from the users. (Object)           |
+| Genres        | All genres pertaining to a specified game. (List)             |
+| Summary       | Summary provided by the team. (String)                        |
+| Reviews       | User reviews. (String)                                        |
+| Plays         | Number of users that have played the game before. (Object)    |
+| Playing       | Number of current users who are playing the game. (Object)    |
+| Backlogs      | Number of users who have access but haven't started. (Object) |
+| Wishlist      | Number of users who wish to play the game. (Object)           |
+
 #### Preprocess
 (TBD) For the *Global Video Game Sales* dataset, we clean up entries that miss the year of release.
+
+For the *Popular Video Games 1980 - 2023*, we first clean up the dataset by dropping the first meaningless column and some rows including **null** values. After that, we do a deeper cleaning by removing the rows where its **Release Date** is "releases on TBD", changing the columns name to lower case and replacing spaces with "_" for consistency and converting the special data type “K“ into the integer (1000) for some columns. Finally, we plot the **Top 10 most popular video games genres** based on total number of games in each genres. We also explore the **trends of the average Adventure video games'rating** over the years to explore the change of Adventure video games'rating in the past 30 years.
 
 ### Problematic
 
