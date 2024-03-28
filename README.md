@@ -19,7 +19,7 @@ Please, fill the following sections about your project.
 
 ### Dataset
 - [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of top video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
-- [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This dataset contains a list of video games dating from 1980 to 2023, it also provides things such as release dates, user review rating, discribe summary and critic review rating.
+- [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This dataset contains a list of very pupular video games released from 1980 to 2023, it also provides other things such as release dates, user review rating, discribe summary and critic review rating, which are super useful for us to find out some interesting insights about the popularity of video games recently. 
 
 #### Global Video Game Sales Dataset
 > **Size**: 11 columns and 16600 rows
@@ -83,7 +83,11 @@ For more details please check our jupyter notebook [eda.ipynb](https://github.co
 > - Show some basic statistics and get insights about the data 
 -->
 
-Finally, we plot the **Top 10 most popular video games genres** based on the total number of games in each genres. We also explore the **trends of the average Adventure video games'rating** over the years to explore the change of Adventure video games'rating in the past 30 years.
+**Top 10 most popular video games genres** 
+This figure deisplays
+
+**trends of the average Adventure video games'rating**
+This figure shows
 
 ### Related work
 
