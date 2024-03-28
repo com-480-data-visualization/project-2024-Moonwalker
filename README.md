@@ -60,7 +60,9 @@ Please, fill the following sections about your project.
 #### Preprocess
 (TBD) For the *Global Video Game Sales* dataset, we clean up entries that miss the year of release.
 
-For the *Popular Video Games 1980 - 2023*, we first clean up the dataset by dropping the first meaningless column and some rows including **null** values. After that, we do a deeper cleaning by removing the rows where its **Release Date** is "releases on TBD", changing the columns name to lower case and replacing spaces with "_" for consistency and converting the special data type “K“ into the integer (1000) for some columns. Finally, we plot the **Top 10 most popular video games genres** based on total number of games in each genres. We also explore the **trends of the average Adventure video games'rating** over the years to explore the change of Adventure video games'rating in the past 30 years.
+For the *Popular Video Games 1980 - 2023*, we first clean up the dataset by dropping the first meaningless column and some rows including **null** values. After that, we do a deeper cleaning by removing the rows where its **Release Date** is "releases on TBD", changing the columns name to lower case, replacing spaces with "_" for consistency and converting the special data type “K“ into the integer (1000) for some columns. 
+
+For more details please check our jupyter notebook [eda.ipynb](https://github.com/com-480-data-visualization/project-2024-Moonwalker/blob/master/data/eda.ipynb).
 
 ### Problematic
 
@@ -80,6 +82,8 @@ For the *Popular Video Games 1980 - 2023*, we first clean up the dataset by drop
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data 
 -->
+
+Finally, we plot the **Top 10 most popular video games genres** based on the total number of games in each genres. We also explore the **trends of the average Adventure video games'rating** over the years to explore the change of Adventure video games'rating in the past 30 years.
 
 ### Related work
 
