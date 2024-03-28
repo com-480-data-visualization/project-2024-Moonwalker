@@ -97,7 +97,7 @@ This figure shows the average ratings for adventure games from 1985 to around 20
 #### 1. What others have already done with the data?
 Several analyses and visualizations have been conducted using our dataset, including:
 - [Data Analysis & Visualization: Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): This work analyzed the Global Video Game Sales dataset using R.
--  
+- [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This work analyzed the Popular Video Games 1980 - 2023 dataset using python.
 
 #### 2. Why is your approach original?
 
