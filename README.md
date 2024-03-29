@@ -67,8 +67,8 @@ Please, fill the following sections about your project.
 | Administrative division 　　　　　　　　| State(US) of the compy headquarts. (String)                    |
 | Country           　　　 　　　　　　　　| Country of company headquarters. (String)                     |
 | Est.  　　　　　　        　　　　　　　　| Founding date of the company. (Integer)                       |
-| Notable games, series or franchises  |  Some of the top games of the company. (Object)               |
-| Notes        　　　　　　　　　　　　　　 |　Interesting notes. (Object)                                  |
+| Notable games, series or franchises  | Some of the top games of the company. (Object)               |
+| Notes        　　　　　　　　　　　　　　 | Interesting notes. (Object)                                  |
 
 #### Ⅳ. Preprocess
 For the *Global Video Game Sales* and *Videogame-company-regions* dataset, we merged the two dataset by the column **Publisher** and **Developer**, for the convenience of futher analysis. 
@@ -150,11 +150,11 @@ In summary, we aim for our website to offer readers a pleasant and exciting expe
 #### 3. What source of inspiration do you take? 
 
 
-- [STEAM: Visualizing data from the gaming platform](https://steam.shardulaggarwal.com/genre):This is an interactive dashboard focusing on game data from the Steam platform. It offers various forms of data visualization with simple interactive features, allowing analysis from multiple perspectives such as game genres, developers, and players. It provides insights into our research questions and offers ideas for potential charts.
+- [STEAM: Visualizing data from the gaming platform](https://steam.shardulaggarwal.com/genre): This is an interactive dashboard focusing on game data from the Steam platform. It offers various forms of data visualization with simple interactive features, allowing analysis from multiple perspectives such as game genres, developers, and players. It provides insights into our research questions and offers ideas for potential charts.
 
-- [Report on Video Game Sales](https://public.tableau.com/app/profile/abhijit.bose/viz/VideoGameSales1980-2016_16768906660000/Dashboard1):This dashboard provides various chart analyses of trends in video game sales, offering some references for analyzing sales-related issues.
+- [Report on Video Game Sales](https://public.tableau.com/app/profile/abhijit.bose/viz/VideoGameSales1980-2016_16768906660000/Dashboard1): This dashboard provides various chart analyses of trends in video game sales, offering some references for analyzing sales-related issues.
 
-- [Matan Stauber Histography](http://histography.io):Although this project is unrelated to video games, its smooth interactive design around the timeline and presentation of relevant historical events greatly intrigues us. It may provide us with some inspiration for interactive design.
+- [Matan Stauber Histography](http://histography.io): Although this project is unrelated to video games, its smooth interactive design around the timeline and presentation of relevant historical events greatly intrigues us. It may provide us with some inspiration for interactive design.
 
 <!--- [Anime Data Visualization](https://github.com/com-480-data-visualization/com-480-project-worldwideweebz) : This project inspired us to come up with our figure 1, aiming to visualize the genre preference and popularity about the most authoritative game sales in the video game industry. -->
 
