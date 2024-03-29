@@ -20,8 +20,7 @@ Please, fill the following sections about your project.
 ### Dataset
 - [Global Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): A dataset contains information about the global sales of top video games across different platforms and genres. The original dataset contains a list of video games with sales greater than 100,000 copies from [vgchartz.com](https://www.vgchartz.com), which is scraped by [Gregory Smith's work](https://zenodo.org/records/5898311#.Y9Y2K9JBwUE).
 - [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This dataset contains a list of very pupular video games released from 1980 to 2023, it also provides other things such as release dates, user review rating, discribe summary and critic review rating, which are super useful for us to find out some interesting insights about the popularity of video games recently. 
-- [Videogame-company-regions](https://www.kaggle.com/datasets/andreshg/videogamescompaniesregions): **TODO**
-
+- [Videogame-company-regions](https://www.kaggle.com/datasets/andreshg/videogamescompaniesregions): This dataset contains information on 686 video game publishers, covering nearly all major game publishers. It can be used in conjunction with other datasets for comprehensive analysis.
 #### Ⅰ. Global Video Game Sales Dataset
 > **Size**: 11 columns and 16600 rows
 
@@ -61,7 +60,15 @@ Please, fill the following sections about your project.
 #### Ⅲ. Videogame-company-regions Dataset
 > **Size**: 7 columns and 686 rows
 
-**TODO**
+| Column Name   　　　　　　　　　　　　　　| Description                                                   |
+|--------------------------------------|---------------------------------------------------------------|
+| Developer     　　　　　　　　　　　　　　| Company name. (String)                                        |
+| City                    　　　　　　　　| City of company headquarters. (String)                        |
+| Administrative division 　　　　　　　　| State(US) of the compy headquarts. (String)                    |
+| Country           　　　 　　　　　　　　| Country of company headquarters. (String)                     |
+| Est.  　　　　　　        　　　　　　　　| Founding date of the company. (Integer)                       |
+| Notable games, series or franchises  |  Some of the top games of the company. (Object)               |
+| Notes        　　　　　　　　　　　　　　 |　Interesting notes. (Object)                                  |
 
 #### Ⅳ. Preprocess
 For the *Global Video Game Sales* and *Videogame-company-regions* dataset, we merged the two dataset by the column **Publisher** and **Developer**, for the convenience of futher analysis. 
@@ -129,14 +136,27 @@ This figure shows the average ratings for adventure games from 1985 to around 20
 
 #### 1. What others have already done with the data?
 Several analyses and visualizations have been conducted using our dataset, including:
-- [Data Analysis & Visualization: Video Game Sales](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales): This work analyzed the Global Video Game Sales dataset using R.
+
+- [Visualizing Video Game Data 2007 – 2016 with Tableau](https://studentwork.prattsi.org/infovis/visualization/visualizing-video-game-data-2007-2016-with-tableau/): This project explores the data trends in electronic game sales and investigates potential factors that may influence game sales, primarily using Tableau for analysis.
+- [Data Analysis & Visualization: Video Game Sales](https://www.kaggle.com/code/yyxian/data-analysis-visualization-video-game-sales): This work analyzed the Global Video Game Sales dataset using R.
 - [Popular Video Games 1980 - 2023](https://www.kaggle.com/code/hossamelshabory97/popular-video-games-1980-2023-eda): This work analyzed the Popular Video Games 1980 - 2023 dataset using python.
 
 #### 2. Why is your approach original?
+Most of the analyses we encountered did a good job of describing various features of the dataset itself, but often only provided static visualizations, making them somewhat rigid. We believe video games should be a lively and engaging topic, so when implementing visualizations, we decided to use interactive visualization solutions that users can interact with to provide a novel experience, much like they would enjoy playing video games. Additionally, we decided to delve into some deeper research using existing datasets, rather than just describing the data itself. For example, we might utilize NLP-related techniques to develop a game recommendation feature.
+
+In summary, we aim for our website to offer readers a pleasant and exciting experience, allowing them to appreciate the art of data as they engage in "playing" with it.
+
 
 #### 3. What source of inspiration do you take? 
-Additionally, we draw inspiration from impressive visualization projects across different subjects from previous years:
-- [Anime Data Visualization](https://github.com/com-480-data-visualization/com-480-project-worldwideweebz) : This project inspired us to come up with our figure 1, aiming to visualize the genre preference and popularity about the most authoritative game sales in the video game industry.
+
+
+- [STEAM: Visualizing data from the gaming platform](https://steam.shardulaggarwal.com/genre):This is an interactive dashboard focusing on game data from the Steam platform. It offers various forms of data visualization with simple interactive features, allowing analysis from multiple perspectives such as game genres, developers, and players. It provides insights into our research questions and offers ideas for potential charts.
+
+- [Report on Video Game Sales](https://public.tableau.com/app/profile/abhijit.bose/viz/VideoGameSales1980-2016_16768906660000/Dashboard1):This dashboard provides various chart analyses of trends in video game sales, offering some references for analyzing sales-related issues.
+
+- [Matan Stauber Histography](http://histography.io):Although this project is unrelated to video games, its smooth interactive design around the timeline and presentation of relevant historical events greatly intrigues us. It may provide us with some inspiration for interactive design.
+
+<!--- [Anime Data Visualization](https://github.com/com-480-data-visualization/com-480-project-worldwideweebz) : This project inspired us to come up with our figure 1, aiming to visualize the genre preference and popularity about the most authoritative game sales in the video game industry. -->
 
 <!-- - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class. -->
 
