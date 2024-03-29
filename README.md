@@ -84,9 +84,17 @@ For more details please check our jupyter notebook [eda.ipynb](https://github.co
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience. 
 -->
-**TODO**
+
+Emerging from the virtual realms of fantasy and technology, video games have grown into much more than engaging digital experiences. They have ascended to cultural phenomena, modes of storytelling, platforms for social interaction, and arenas for intellectual challenge. Across the globe, gaming communities have become vibrant gathering spots for players, developers, and enthusiasts, fostering a rich culture of collaboration and competition. Furthermore, the video game industry is a significant economic powerhouse, offering vast opportunities for creativity, innovation, and employment in various sectors, from game design to marketing.
+
+Recognizing the dynamic world of video games, our project offers an exhaustive exploration of the global gaming landscape. Our website provides a detailed account of video games' evolution, market trends, and the popularity of different genres. We aim to empower users with comprehensive knowledge about video games, enabling them to effortlessly discover games that resonate with their interests. Our website caters to both seasoned gamers and newcomers, ensuring everyone can find a game that suits their taste. Ultimately, we plan to offer personalized recommendations based on multiple game attributes, enhancing the gaming journey for our visitors.
+
+Specifically, our website will roughly (might change sligthly overtime) contain the following visualizations
+
 - Examines changes over time in the gaming industry, tracking shifts in consumer preferences.
 - Identifies the platforms that are leading in worldwide game sales and explores the success of various game genres across different regions.
+- Explore the game genres, game content and user behaviour for those high-rating video games worldwide.
+- Provide users with information about video games that may be of interest to them based on game content and user preferences.
 
 
 ### Exploratory Data Analysis
