@@ -15,7 +15,7 @@ Scroll down the page and we'll take a closer look at gaming platforms.
 
 We'll start by showing the evolution of gaming platforms over the years. The visualization will show the number of games released on each platform over the years. The user can hover over the graph to see the exact number of games released on a particular platform in a particular year. At the same time, a representative picture of the platform will be displayed in the blank space of the page.
 
-![Platform Evolution](../images/platform_evolution.jpg)
+<img src="../images/platform_evolution.jpg" style="width: 80%;">
 
 ### Figure 3
 <!-- 然后放platform上最受欢迎的游戏类型 -->
@@ -25,7 +25,7 @@ We will show the most popular game genres on each platform using a chord diagram
 
 When a user clicks on a chord connecting a genre to a platform, an information card will appear. This information card would present the most popular game within the selected genre for the chosen platform.
 
-![Platform vs Genre](../images/platform_genre.jpg)
+<img src="../images/platform_genre.jpg" style="width: 80%;">
 
 ### Figure 4
 <!-- 各genre游戏的受欢迎程度随年份变化 -->
