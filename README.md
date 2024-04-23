@@ -172,6 +172,11 @@ In summary, we aim for our website to offer readers a pleasant and exciting expe
 
 **10% of the final grade**
 
+**TODO**
+- The milestone document can be found here.
+
+- The current version of the website can be found here.
+
 
 ## Milestone 3 (31st May, 5pm)
 
