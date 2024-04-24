@@ -32,10 +32,19 @@ When a user clicks on a chord connecting a genre to a platform, an information c
 
 ### Figure 5
 <!-- 选择一个喜欢的游戏 -->
+Finally, we will show a cute and pastel-themed interface to let you select your favorite game.
 
-### Figure 6
+Our video game portal introduces an enchanting filtering experience that revolves around four essential attributes: Price, Rating, Genres, and Release Date. These attributes were selected for their distinctiveness and relevance in helping gamers find their ideal video game.
 
+Welcome to the first look at our interface! As you navigate, you'll notice each circle symbolizes a unique video game, and they will dynamically walk randomly on the final website as well as interacting with your mouse. Adjacent to these, clickable buttons for each attribute allow you to tailor the display. 
+
+Curious about the games you've filtered? The left side of the screen is your gateway to more information. Here, detailed descriptions and specifics of each game you're interested in are meticulously presented, enriching your exploration and selection process.
+
+<img src="../images/Figure5.png" style="width: 80%;">
 
 ## Project BreakDown
 
 ## Extra Ideas
+After the **Figure 5**, we plan to add one page of video games recommendation. We would like to use the dynamic 3D interactive network diagram to enhance game discovery experience. In this visual model, each node represents a unique video game, while the connecting lines, or edges, link games that share similarities. This setup allows you to navigate effortlessly from familiar games to new titles based on their related attributes.
+
+This innovative approach targets casual gamers who may struggle to identify new games solely through game ownership. Instead, by interacting with games they already enjoy, users can naturally explore and uncover similar, new games. This method ensures a more intuitive and reliable way for users to expand their gaming horizons.
