@@ -14,8 +14,11 @@ We'll start by showing the evolution of gaming platforms over time. The visualiz
 <img src="../images/platform_evolution.jpg" style="width: 80%;">
 
 ### Figure 2
+Then we will explore the popularity among game genres.
 
+We will use a bubble chart to showcase the number of games for different genres. Each bubble will represent the number of games within a specific genre. Alongside, a timeline will depict the years. The bubble chart will dynamically change over time to reflect the shifts in game releases across different years, enhanced by engaging animation effects.
 
+<img src="../images/genres_bubble_chart.png" style="width: 80%;">
 
 ### Figure 3
 <!-- 然后放platform上最受欢迎的游戏类型 -->
@@ -28,7 +31,10 @@ When a user clicks on a chord connecting a genre to a platform, an information c
 <img src="../images/platform_genre.jpg" style="width: 80%;">
 
 ### Figure 4
-<!-- 各genre游戏的受欢迎程度随年份变化 -->
+To delve deeper into the world of video games, we can't overlook their creators. 
+
+We intend to use a bar race visualization to depict the sales performance of the top 10-15 game publishers from 2000 to 2016. This will highlight the rise and fall of game sales for different publishers, revealing industry stalwarts and emerging dark horses who seized opportunities and rose to prominence.
+<img src="../images/bar_race_producer.png" style="width: 80%;">
 
 ### Figure 5
 <!-- 选择一个喜欢的游戏 -->
@@ -48,3 +54,6 @@ Curious about the games you've filtered? The left side of the screen is your gat
 After the **Figure 5**, we plan to add one page of video games recommendation. We would like to use the dynamic 3D interactive network diagram to enhance game discovery experience. In this visual model, each node represents a unique video game, while the connecting lines, or edges, link games that share similarities. This setup allows you to navigate effortlessly from familiar games to new titles based on their related attributes.
 
 This innovative approach targets casual gamers who may struggle to identify new games solely through game ownership. Instead, by interacting with games they already enjoy, users can naturally explore and uncover similar, new games. This method ensures a more intuitive and reliable way for users to expand their gaming horizons.
+
+## Demo
+You can visit the draft version of our website here [World of Video Games](https://major-blitz.github.io/com480-moonwalker/#firstPage).
