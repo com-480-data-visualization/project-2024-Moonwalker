@@ -7,15 +7,15 @@ We will use **D3.js** from lecture *Interactive D3.js* to create dynamic, intera
 In this section, we will display simple sketches of our visualizations, their purpose and the interactions we hope to achieve.
 
 ### Figure 1
-<!-- 第一张图放世界地图，游戏开发商在地图上的分布 -->
+Over the years, the platforms for playing video games have undergone significant changes, paralleling the broader evolution of the games themselves.
 
-### Figure 2
-<!-- 然后放platform的进化 -->
-Scroll down the page and we'll take a closer look at gaming platforms. 
-
-We'll start by showing the evolution of gaming platforms over the years. The visualization will show the number of games released on each platform over the years. The user can hover over the graph to see the exact number of games released on a particular platform in a particular year. At the same time, a representative picture of the platform will be displayed in the blank space of the page.
+We'll start by showing the evolution of gaming platforms over time. The visualization will show the number of games released on each platform over the years. The user can hover over the graph to see the exact number of games released on a particular platform in a particular year. At the same time, a representative picture of the platform will be displayed in the blank space of the page.
 
 <img src="../images/platform_evolution.jpg" style="width: 80%;">
+
+### Figure 2
+
+
 
 ### Figure 3
 <!-- 然后放platform上最受欢迎的游戏类型 -->
