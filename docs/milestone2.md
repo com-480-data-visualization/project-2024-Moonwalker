@@ -3,7 +3,7 @@
 ## Tools
 First, we'll leverage knowledge from the *Basic Web Development* and *Javascript* lectures as the foundation for our project.
 
-To create a full-screen scrolling website, we will using _[**fullpage.js**](https://alvarotrigo.com/fullPage/),_ library for the structure.
+To create a full-screen scrolling website, we will using _[**fullpage.js**](https://alvarotrigo.com/fullPage/)_ library for the structure.
 
 For dynamic, interactive data visualizations, we'll employ **D3.js**, as taught in the *Interactive D3.js* lectures. This will allow us to utilise the csv data and build complex graphics that users can interact with directly.
 
