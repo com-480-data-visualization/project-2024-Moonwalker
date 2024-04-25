@@ -170,8 +170,8 @@ In summary, we aim for our website to offer readers a pleasant and exciting expe
 ## Milestone 2 (26th April, 5pm)
 
 **10% of the final grade**
-- The current version of the website can be found [here]().
-- The documentation of milestone2 can be found [here](docs/milestone2.md).
+- The current version of the website can be found [here](https://major-blitz.github.io/com480-moonwalker/#firstPage).
+- The documentation of milestone 2 can be found [here](docs/milestone2.md).
 
 ## Milestone 3 (31st May, 5pm)
 
