@@ -1,7 +1,13 @@
 # Milestone 2 (26th April, 5pm)
 
 ## Tools
-We will use **D3.js** from lecture *Interactive D3.js* to create dynamic, interactive data visualizations on the web.
+First, we'll leverage knowledge from the *Basic Web Development* and *Javascript* lectures as the foundation for our project.
+
+To create a full-screen scrolling website, we will using **fullpage.js** library for the structure.
+
+For dynamic, interactive data visualizations, we'll employ** D3.js**, as taught in the *Interactive D3.js* lectures. This will allow us to utilise the csv data and build complex graphics that users can interact with directly.
+
+Given the nature of our dataset, insights from the *Tabular Data* lecture will guide us in efficiently managing and manipulating data in tabular formats.
 
 ## Sketches
 In this section, we will display simple sketches of our visualizations, their purpose and the interactions we hope to achieve.
