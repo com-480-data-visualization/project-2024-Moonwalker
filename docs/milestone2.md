@@ -55,6 +55,11 @@ Curious about the games you've filtered? The left side of the screen is your gat
 <img src="../images/Figure5.png" style="width: 80%;">
 
 ## Project BreakDown
+This project aims to create an interactive web-based platform that provides detailed visualizations of the video game industry's evolution. The platform will feature five main visualizations: the evolution of gaming platforms, genre popularity over time, game tonality per platform, sales performance of game publishers, and a dynamic game selection interface. Each visualization is designed to be interactive, offering users the ability to explore and engage with the data through various means such as hovering, clicking, and dynamic filtering.
+
+Key interactions include the ability to hover over graphs to see specific data points, click on elements to receive more detailed information, and use an enchanting, pastel-themed interface to filter and select games based on specific attributes. The visualizations will utilize technologies like HTML5, CSS3, and JavaScript with D3.js, ensuring a responsive and engaging user experience across different devices.
+
+The project will progress through stages of data preparation, visualization prototyping (currently) and final website implementation. The final platform will not only allow users to gain insights into historical and current trends in video gaming but also assist them in discovering games that match their preferences through an innovative filtering experience.
 
 ## Extra Ideas
 After the **Figure 5**, we plan to add one page of video games recommendation. We would like to use the dynamic 3D interactive network diagram to enhance game discovery experience. In this visual model, each node represents a unique video game, while the connecting lines, or edges, link games that share similarities. This setup allows you to navigate effortlessly from familiar games to new titles based on their related attributes.
