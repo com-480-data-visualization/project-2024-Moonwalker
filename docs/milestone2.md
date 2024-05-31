@@ -17,14 +17,14 @@ Over the years, the platforms for playing video games have undergone significant
 
 We'll start by showing the evolution of gaming platforms over time. The visualization will show the number of games released on each platform over the years. The user can hover over the graph to see the exact number of games released on a particular platform in a particular year. At the same time, a representative picture of the platform will be displayed in the blank space of the page.
 
-<img src="../images/platform_evolution.jpg" style="width: 80%;">
+<img src="../docImages/platform_evolution.jpg" style="width: 80%;">
 
 ### Figure 2
 Then we will explore the popularity among game genres.
 
 We will use a bubble chart to showcase the number of games for different genres. Each bubble will represent the number of games within a specific genre. Alongside, a timeline will depict the years. The bubble chart will dynamically change over time to reflect the shifts in game releases across different years, enhanced by engaging animation effects.
 
-<img src="../images/genres_bubble_chart.png" style="width: 80%;">
+<img src="../docImages/genres_bubble_chart.png" style="width: 80%;">
 
 ### Figure 3
 <!-- 然后放platform上最受欢迎的游戏类型 -->
@@ -34,13 +34,13 @@ We will show the most popular game genres on each platform using a chord diagram
 
 When a user clicks on a chord connecting a genre to a platform, an information card will appear. This information card would present the most popular game within the selected genre for the chosen platform.
 
-<img src="../images/platform_genre.jpg" style="width: 80%;">
+<img src="../docImages/platform_genre.jpg" style="width: 80%;">
 
 ### Figure 4
 To delve deeper into the world of video games, we can't overlook their creators. 
 
 We intend to use a bar race visualization to depict the sales performance of the top 10-15 game publishers from 2000 to 2016. This will highlight the rise and fall of game sales for different publishers, revealing industry stalwarts and emerging dark horses who seized opportunities and rose to prominence.
-<img src="../images/bar_race_producer.png" style="width: 80%;">
+<img src="../docImages/bar_race_producer.png" style="width: 80%;">
 
 ### Figure 5
 <!-- 选择一个喜欢的游戏 -->
@@ -52,7 +52,7 @@ Welcome to the first look at our interface! As you navigate, you'll notice each 
 
 Curious about the games you've filtered? The left side of the screen is your gateway to more information. Here, detailed descriptions and specifics of each game you're interested in are meticulously presented, enriching your exploration and selection process.
 
-<img src="../images/Figure5.png" style="width: 80%;">
+<img src="../docImages/Figure5.png" style="width: 80%;">
 
 ## Project BreakDown
 This project aims to create an interactive web-based platform that provides detailed visualizations of the video game industry's evolution. The platform will feature five main visualizations: the evolution of gaming platforms, genre popularity over time, game tonality per platform, sales performance of game publishers, and a dynamic game selection interface. Each visualization is designed to be interactive, offering users the ability to explore and engage with the data through various means such as hovering, clicking, and dynamic filtering.

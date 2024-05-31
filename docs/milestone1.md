@@ -95,39 +95,39 @@ Specifically, our website will roughly (might change sligthly overtime) contain 
 -->
 **Historical Trend in the Gaming Industry Over Time.**
 There is a general upward trend in the number of games released annually from the early 1980s until the late 2000s. The peak of game releases occurs around the year 2008-2009. After the peak, there is a sharp decline in the number of games released. 
-![Number of games released annually](../images/number_of_games_released_by_year.png "Number of games released annually")
+![Number of games released annually](../docImages/number_of_games_released_by_year.png "Number of games released annually")
 
 **Number of Games Released on Different Gaming Platforms.**
 The platform with the highest number of game releases is the DS, which is Nintendo's handheld console, and the PlayStation 2 (PS2) follows closely behind.
-![Number of games released on different platforms](../images/total_released_game_by_platform.png "Number of games released on different platforms")
+![Number of games released on different platforms](../docImages/total_released_game_by_platform.png "Number of games released on different platforms")
 
 **The Top Selling Game or Each Year.**
 This chart representing the top-selling video game of each year, differentiated by total global sales. The picture indicates fluctuation in the total sales of top games year by year. In the late 2000s, there is a standout bar that significantly exceeds the others, which represents an exceptionally successful game in terms of sales.
-![Top selling game of each year](../images/top_game_in_each_year.png "Top selling game of each year")
+![Top selling game of each year](../docImages/top_game_in_each_year.png "Top selling game of each year")
 
 **Video Game Sales by Publishers Across Different Regions.**
 The charts show the top 10 publishers in each region, with Nintendo leading in global sales, followed by Electronic Arts and Activision. The charts provide a clear visual representation of the disparity in video game sales by publishers across different regions.
-![Video Game Sales by Publishers Across Different Regions](../images/producer_in_regions.png "Video Game Sales by Publishers Across Different Regions")
+![Video Game Sales by Publishers Across Different Regions](../docImages/producer_in_regions.png "Video Game Sales by Publishers Across Different Regions")
 
 **Global Video Game Sales by Platform and Genre.**
 This heatmap displays global sales of video games, categorized by the top 10 gaming platforms and game genres. The most sales in a single genre-platform combination are seen in the Action genre on a platform represented as "PS3," followed closely by Sports on "Wii.". The Sports and Action genres have high sales across several platforms, which suggests these genres are widely popular among different gaming audiences. Genres like Strategy, Puzzle, and Simulation have higher sales on older platforms.
-![Platform's Preference of Genre](../images/platform_genre.png "Platform's Preference of Genre")
+![Platform's Preference of Genre](../docImages/platform_genre.png "Platform's Preference of Genre")
 
 **Video Game Genre Sales by Region.**
 This heatmap visualizes the sales of different video game genres across various regions. Action and Sports genres dominate sales in NA and EU, while Role-Playing games have significant sales in JP. The Shooter genre is popular in NA and EU but has less impact in JP and Other regions.
-![Video Game Genre Sales by Region](../images/genre_region.png "Video Game Genre Sales by Region")
+![Video Game Genre Sales by Region](../docImages/genre_region.png "Video Game Genre Sales by Region")
 
 **Number of Companies by Country.**
 The picture shows the distribution of companies by country. The United States has the highest number of companies, followed by Japan and the United Kingdom. The United Kingdom comes in third, though with significantly fewer companies. Other countries listed have a much smaller number of companies.
-![Number of Companies by Country](../images/company_by_country.png "Number of Companies by Country")
+![Number of Companies by Country](../docImages/company_by_country.png "Number of Companies by Country")
 
 **Top 10 Most Popular Video Games Genres.** 
 This figure deisplays the top 10 popular video game genres, with 'Adventure' games leading the pack at 1005 games. Following are 'RPG' games with a significant count of 422 games. The genres 'Platform' and 'Shooter' are fairly close in popularity, with 282 and 270 games respectively. 'Brawler', 'Simulator', and 'Turn Based Strategy' genres have the fewest games among the top 10, with counts of 119, 109, and 99 games accordingly. The chart provides a clear visual representation of the disparity in popularity among different video game genres.
-![Global production](../images/Top10Popular.png "Top 10 Most Popular Video Games Genres")
+![Global production](../docImages/Top10Popular.png "Top 10 Most Popular Video Games Genres")
 
 **Trends of the Average Adventure Video Games'Rating.**
 This figure shows the average ratings for adventure games from 1985 to around 2020. There’s a notable peak in the early '90s, followed by a sharp decline. Ratings fluctuate afterwards but stay mostly above 3.5. The trend from 2010 onwards is slightly downward, suggesting a recent dip in ratings for the genre. Overall, the genre’s ratings have varied but stayed within a defined range over the years.
-![Global production](../images/AdventureRating.png "Trends of the Average Adventure Video Games'Rating")
+![Global production](../docImages/AdventureRating.png "Trends of the Average Adventure Video Games'Rating")
 
 ### Related work
 

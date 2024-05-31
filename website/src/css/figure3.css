@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.content-container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .fig3-info-card, .game-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#container_3 {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -15px;
+}
+
+#fig3-infoSection {
+    width: 44%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -15px;
+}
+
+.fig3-info-card {
+    width: 100%;
+    max-width: 430px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #ffffff, #e6e6e6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fig3-info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fig3-info-card.hidden {
+    display: none;
+}
+
+.fig3-card-header {
+    background: linear-gradient(to right, blue 50%, red 50%);
+    border-radius: 12px 12px 0 0;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fig3-card-header h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    margin: 0;
+    color: #ffffff;
+    background: none; /* remove default background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.fig3-card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.fig3-card-body p {
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.fig3-card-body .subtext {
+    font-size: 14px;
+    color: #555555;
+}
+
+.game-image {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+    margin: 15px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.game-image:hover {
+    transform: scale(1.05);
+}
+
+.game-details span strong {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+#groupYearLabel {
+    font-weight: bold;
+    color: #555555;
+}
+
+.game-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中心对齐 */
+}
+
+.game-attributes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* 使其占满容器宽度 */
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    gap: 5px; /* 减小间距 */
+}
+
+.sales {
+    color: #8B0000; /* 深红色 */
+    text-align: left; /* 左对齐 */
+    margin-right: 10px; /* 增加右边距 */
+}
+
+.year {
+    color: #00008B; /* 深蓝色 */
+    text-align: right; /* 右对齐 */
+    margin-left: 10px; /* 增加左边距 */
+}
+
+strong {
+    font-weight: bold; /* 显式设置字体加粗 */
+}
+
+.typical-games {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 18px;
+    color: #333333; 
+}
+
+.typical-games .game-title {
+    font-size: 14px; 
+    color: #666666; 
+}
+
+#fig3-infoSection .fig3-highlight { 
+    font-weight: bolder;
+    color: #0b043e;
+    background-color: bisque;
+    margin-bottom: 10px;      
+    font-size: 16px;
+}

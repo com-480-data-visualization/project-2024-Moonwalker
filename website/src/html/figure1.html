@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selected Attribute of Platforms</title>
+    <!-- <base href="../../"> -->
+    <!-- <base href="https://major-blitz.github.io/com480-moonwalker/"> -->
+    <link rel="stylesheet" type="text/css" href="src/css/figure1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"></head>
+<body>
+    <div id="background"></div>
+    <h1 id="chart-title">Number of Games Released on Platforms</h1>
+    <div id="controls">
+        <div>
+            <label for="attribute-select">Attribute:</label>
+            <select id="attribute-select">
+                <option value="Game_Count">Number of Games</option>
+                <option value="Global_Sales">Global Sales</option>
+                <option value="NA_Sales">NA Sales</option>
+                <option value="EU_Sales">EU Sales</option>
+                <option value="Other_Sales">Other Sales</option>
+            </select>
+        </div>
+        <div>
+            <label for="time-select">Time Range:</label>
+            <select id="time-select">
+                <option value="all">All Years</option>
+                <option value="before2000">Before 2000</option>
+                <option value="2000-2010">2000-2010</option>
+                <option value="2010-2020">2010-2020</option>
+            </select>
+        </div>
+    </div>
+    <div id="chart-container">
+        <div id="chart"></div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="src/js/figure1.js"></script>
+</body>
+</html>

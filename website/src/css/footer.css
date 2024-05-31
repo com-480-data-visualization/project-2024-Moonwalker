@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#powered_by {
+    font-family: "Orbitron", sans-serif;
+    color: #0080ff;
+    text-shadow: 0 0 10px #0080ff, 0 0 20px #0080ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#powered_by span {
+    margin-right: 10px;
+}
